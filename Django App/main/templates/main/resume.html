@@ -1,0 +1,23 @@
+{% extends 'main/header.html' %}
+
+{% block content %}
+
+
+    <div class="row">
+        {% for cat in arr %}
+            <div class="col s12 m6 l4">
+                
+                    <div class="card hoverable">
+                        <div class="card-content">
+                            
+                            <p>{{cat}}</p>
+                        </div>
+                    </div>
+              
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}
+
+
