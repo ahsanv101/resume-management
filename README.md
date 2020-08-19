@@ -11,7 +11,7 @@ run:
 
 ### How to run Django App locally ###
 
-intall all libraries
+install all libraries
 
 run:
-*py -3.5 manage.py runserver
+* py -3.5 manage.py runserver
